@@ -1,0 +1,209 @@
+{
+  "products": [
+    {
+      "id": "prod_1",
+      "name": "Nexus Pro ANC Wireless Headphones",
+      "slug": "nexus-pro-anc-headphones",
+      "category": "Audio",
+      "price": 149.99,
+      "rating": 4.8,
+      "reviewsCount": 128,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+      "description": "Premium active noise cancelling over-ear headphones with 40-hour battery life and spatial audio support.",
+      "featured": true
+    },
+    {
+      "id": "prod_2",
+      "name": "Aura Pulse OLED Smartwatch",
+      "slug": "aura-pulse-smartwatch",
+      "category": "Wearables",
+      "price": 199.5,
+      "rating": 4.7,
+      "reviewsCount": 94,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+      "description": "High-definition AMOLED display with continuous heart-rate tracking, SpO2 sensor, and 7-day battery standby.",
+      "featured": true
+    },
+    {
+      "id": "prod_3",
+      "name": "HyperGlide Ergonomic Wireless Mouse",
+      "slug": "hyperglide-wireless-mouse",
+      "category": "Accessories",
+      "price": 49.99,
+      "rating": 4.6,
+      "reviewsCount": 76,
+      "stock": 35,
+      "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80",
+      "description": "Precision laser tracking with quiet click switches, dual Bluetooth / 2.4GHz connectivity, and customizable thumb buttons.",
+      "featured": false
+    },
+    {
+      "id": "prod_4",
+      "name": "Vortex Mechanical Gaming Keyboard",
+      "slug": "vortex-mechanical-keyboard",
+      "category": "Accessories",
+      "price": 119.0,
+      "rating": 4.9,
+      "reviewsCount": 210,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80",
+      "description": "Hot-swappable tactile mechanical switches with per-key RGB backlighting and aircraft-grade aluminum chassis.",
+      "featured": true
+    },
+    {
+      "id": "prod_5",
+      "name": "EchoBeam 360 Portable Speaker",
+      "slug": "echobeam-360-speaker",
+      "category": "Audio",
+      "price": 79.99,
+      "rating": 4.5,
+      "reviewsCount": 62,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&q=80",
+      "description": "Waterproof IPX7 portable speaker featuring 360-degree room-filling acoustic bass and 15-hour playback.",
+      "featured": false
+    },
+    {
+      "id": "prod_6",
+      "name": "Lumix Ultra-Slim 4K Webcam",
+      "slug": "lumix-4k-webcam",
+      "category": "Electronics",
+      "price": 89.99,
+      "rating": 4.6,
+      "reviewsCount": 49,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1588508065123-287b28e013da?w=800&q=80",
+      "description": "Crystal clear 4K @ 30fps webcam with dual noise-cancelling microphones and automated low-light color correction.",
+      "featured": true
+    },
+    {
+      "id": "prod_7",
+      "name": "Titanium MagSafe Fast Wireless Charger",
+      "slug": "titanium-magsafe-charger",
+      "category": "Accessories",
+      "price": 34.99,
+      "rating": 4.4,
+      "reviewsCount": 88,
+      "stock": 42,
+      "image": "https://images.unsplash.com/photo-1622445262464-84b1456045b6?w=800&q=80",
+      "description": "15W magnetic rapid charging pad compatible with all modern smartphones and wireless earbuds.",
+      "featured": false
+    },
+    {
+      "id": "prod_8",
+      "name": "Horizon Smart Fitness Ring",
+      "slug": "horizon-smart-fitness-ring",
+      "category": "Wearables",
+      "price": 229.0,
+      "rating": 4.7,
+      "reviewsCount": 31,
+      "stock": 5,
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
+      "description": "Ultra-lightweight titanium body tracking sleep cycles, skin temperature variations, and daily readiness score.",
+      "featured": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer": {
+        "name": "Sarah Jenkins",
+        "email": "sarah.j@example.com",
+        "phone": "+92 300 1234567",
+        "address": "45 Green Avenue, Sector F-7",
+        "city": "Islamabad",
+        "notes": "Please call before delivery"
+      },
+      "items": [
+        {
+          "productId": "prod_1",
+          "name": "Nexus Pro ANC Wireless Headphones",
+          "price": 149.99,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80"
+        }
+      ],
+      "subtotal": 149.99,
+      "shipping": 0.0,
+      "total": 149.99,
+      "status": "Delivered",
+      "paymentMethod": "Simulated Credit Card",
+      "createdAt": "2026-11-08T10:15:00.000Z"
+    },
+    {
+      "id": "ORD-1002",
+      "customer": {
+        "name": "Bilal Tariq",
+        "email": "bilal.tariq@example.com",
+        "phone": "+92 321 7654321",
+        "address": "Apartment 12B, Clifton Block 4",
+        "city": "Karachi",
+        "notes": "Leave at front desk"
+      },
+      "items": [
+        {
+          "productId": "prod_2",
+          "name": "Aura Pulse OLED Smartwatch",
+          "price": 199.5,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80"
+        },
+        {
+          "productId": "prod_7",
+          "name": "Titanium MagSafe Fast Wireless Charger",
+          "price": 34.99,
+          "quantity": 2,
+          "image": "https://images.unsplash.com/photo-1622445262464-84b1456045b6?w=800&q=80"
+        }
+      ],
+      "subtotal": 269.48,
+      "shipping": 0.0,
+      "total": 269.48,
+      "status": "Processing",
+      "paymentMethod": "Simulated Cash on Delivery",
+      "createdAt": "2026-11-09T08:30:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_1",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@example.com",
+      "phone": "+92 300 1234567",
+      "totalOrders": 1,
+      "totalSpent": 149.99,
+      "joinedAt": "2026-11-01"
+    },
+    {
+      "id": "cust_2",
+      "name": "Bilal Tariq",
+      "email": "bilal.tariq@example.com",
+      "phone": "+92 321 7654321",
+      "totalOrders": 1,
+      "totalSpent": 269.48,
+      "joinedAt": "2026-11-03"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq_1",
+      "customerName": "Ayesha Khan",
+      "customerEmail": "ayesha.k@example.com",
+      "subject": "Warranty details on Nexus Pro Headphones",
+      "message": "Does the 40-hour ANC headphone include international replacement warranty if purchased from Pakistan?",
+      "status": "Open",
+      "createdAt": "2026-11-09T14:20:00.000Z"
+    },
+    {
+      "id": "inq_2",
+      "customerName": "Usman Malik",
+      "customerEmail": "usman.m@example.com",
+      "subject": "Bulk purchase inquiry for office keyboards",
+      "message": "We need 15 units of Vortex Mechanical Keyboards. Do you offer institutional discount?",
+      "status": "In Progress",
+      "createdAt": "2026-11-09T16:05:00.000Z"
+    }
+  ]
+}
