@@ -40,10 +40,12 @@ export default function Footer() {
 
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white">
-              <Sparkles className="h-4 w-4" />
-            </div>
+          <div className="flex items-center gap-3">
+            <img
+              src="/logo.png"
+              alt="NEXUS-COMMERCE Logo"
+              className="h-8 w-8 object-contain rounded-lg shadow-sm"
+            />
             <span className="font-bold text-neutral-900 dark:text-white">NEXUS-COMMERCE</span>
             <span className="text-xs text-neutral-500">| Beyond Prompting Bootcamp 2026</span>
           </div>

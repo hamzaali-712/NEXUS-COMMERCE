@@ -13,10 +13,12 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full border-b border-neutral-200 bg-white/90 backdrop-blur-md dark:border-neutral-800 dark:bg-neutral-900/90 transition-colors">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 h-16">
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-purple-600 text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
-            <Sparkles className="h-5 w-5" />
-          </div>
+        <Link href="/" className="flex items-center gap-3 group">
+          <img
+            src="/logo.png"
+            alt="NEXUS-COMMERCE Logo"
+            className="h-10 w-10 object-contain rounded-xl shadow-sm group-hover:scale-105 transition-transform"
+          />
           <div className="flex flex-col">
             <span className="text-xl font-bold tracking-tight text-neutral-900 dark:text-white">
               NEXUS<span className="text-blue-600">.</span>

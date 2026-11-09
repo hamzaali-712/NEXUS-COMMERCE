@@ -16,10 +16,12 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
       {/* Admin Sidebar */}
       <aside className="w-full md:w-64 flex-shrink-0 border-r border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 p-6 space-y-6">
         <div>
-          <div className="flex items-center gap-2 mb-1">
-            <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-blue-600 text-white">
-              <Sparkles className="h-4 w-4" />
-            </div>
+          <div className="flex items-center gap-2.5 mb-1">
+            <img
+              src="/logo.png"
+              alt="NEXUS-COMMERCE"
+              className="h-8 w-8 object-contain rounded-lg shadow-sm"
+            />
             <span className="font-extrabold text-sm text-neutral-900 dark:text-white">
               NEXUS CRM
             </span>
