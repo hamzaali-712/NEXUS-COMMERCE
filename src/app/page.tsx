@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { getProducts } from "@/lib/store";
 import ProductCard from "@/components/ProductCard";
+import ChatBot from "@/components/ChatBot";
+import GuideSection from "@/components/GuideSection";
 import { ArrowRight, ShieldCheck, ShoppingBag, Layers, Zap } from "lucide-react";
 
 export default function HomePage() {
@@ -141,6 +143,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Interactive Guide Bot Section */}
+      <GuideSection />
+
       {/* Architecture / Capstone Feature Callout */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
         <div className="rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-gradient-to-r from-neutral-900 via-neutral-900 to-neutral-800 text-white p-8 sm:p-12 shadow-xl">
@@ -175,6 +180,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Interactive Floating Chatbot Assistant */}
+      <ChatBot />
     </div>
   );
 }
