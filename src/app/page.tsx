@@ -2,9 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { getProducts } from "@/lib/store";
 import ProductCard from "@/components/ProductCard";
-import ChatBot from "@/components/ChatBot";
-import GuideSection from "@/components/GuideSection";
-import { ArrowRight, Sparkles, ShieldCheck, ShoppingBag, Layers, Zap } from "lucide-react";
+import { ArrowRight, ShieldCheck, ShoppingBag, Layers, Zap } from "lucide-react";
 
 export default function HomePage() {
   const allProducts = getProducts();
@@ -18,11 +16,6 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Column: Headlines & CTA */}
             <div className="lg:col-span-7 flex flex-col gap-6 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 self-center lg:self-start rounded-full bg-blue-100 dark:bg-blue-950/80 px-3.5 py-1.5 text-xs font-semibold text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
-                <Sparkles className="h-3.5 w-3.5" />
-                <span>Next-Gen Commerce Experience</span>
-              </div>
-
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-neutral-900 dark:text-white leading-[1.15]">
                 Modern Commerce <br />
                 <span className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
@@ -148,9 +141,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Interactive Guide Bot Section */}
-      <GuideSection />
-
       {/* Architecture / Capstone Feature Callout */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 w-full">
         <div className="rounded-3xl border border-neutral-200 dark:border-neutral-800 bg-gradient-to-r from-neutral-900 via-neutral-900 to-neutral-800 text-white p-8 sm:p-12 shadow-xl">
@@ -185,9 +175,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Interactive Floating Chatbot Assistant */}
-      <ChatBot />
     </div>
   );
 }

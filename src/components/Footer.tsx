@@ -1,5 +1,6 @@
 import React from "react";
-import { Shield, Truck, RefreshCw } from "lucide-react";
+import Link from "next/link";
+import { Sparkles, Shield, Truck, RefreshCw } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -46,11 +47,13 @@ export default function Footer() {
               className="h-8 w-8 object-contain rounded-lg shadow-sm"
             />
             <span className="font-bold text-neutral-900 dark:text-white">NEXUS-COMMERCE</span>
-            <span className="text-xs text-neutral-500">| Intelligent E-Commerce Platform</span>
+            <span className="text-xs text-neutral-500">| Beyond Prompting Bootcamp 2026</span>
           </div>
 
           <p className="text-xs text-neutral-500 text-center md:text-right">
-            © 2026 NEXUS-COMMERCE. All rights reserved.
+            Organized by <strong className="text-neutral-700 dark:text-neutral-300">Google Developer Groups on Campus (GDGoC), CUI Wah</strong>.
+            <br />
+            Built by <Link href="https://github.com/hamzaali-712" target="_blank" className="text-blue-600 hover:underline">hamzaali-712</Link>.
           </p>
         </div>
       </div>
