@@ -2,9 +2,12 @@
   <img src="public/logo.png" alt="NEXUS-COMMERCE Logo" width="180" />
 </p>
 
+
 # NEXUS-COMMERCE — Full-Stack E-Commerce & Mini CRM
 
 > **NEXUS-COMMERCE** is a modern, responsive full-stack e-commerce web application with an integrated merchant CRM dashboard, built with Next.js (App Router), TypeScript, Tailwind CSS, and local persistence.
+
+<img width="1917" height="992" alt="image" src="https://github.com/user-attachments/assets/d3ed9ef8-63f6-464c-aaae-499bf7cd4cf2" /> 
 
 ---
 
