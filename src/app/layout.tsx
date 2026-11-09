@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "NEXUS-COMMERCE — Modern Storefront & Mini CRM",
   description:
-    "A full-stack e-commerce web platform and merchant CRM system built for the GDGoC CUI Wah Beyond Prompting Bootcamp 2026.",
+    "A full-stack e-commerce web platform and merchant CRM system.",
   icons: {
     icon: "/logo.png",
   },
